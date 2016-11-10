@@ -1,3 +1,5 @@
+Project page: https://web-advanced-fall-2016.github.io/assignment-2-Terricka/
+
 # Single Page Applications / AJAX
 
 ## Assignment Specification
