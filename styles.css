@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
 header {
 	width:100%;
 	position:fixed;
@@ -8,11 +11,16 @@ header {
 	color:#fff;
 	text-align: center;
 	z-index:99999;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #container {
-	position:relative;
+	position:absolute;
 	top: 10vh;
+	width:100%;
+	text-align:center;
+	left:0;
+	margin: 0 auto;
 }
 
 .block {
@@ -22,6 +30,7 @@ header {
 	position:relative;
 	float:left;
 	margin:10px 10px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .block a {
@@ -41,6 +50,10 @@ header {
 	height:auto;
 }
 
+.block h1 {
+	text-transform: uppercase;
+}
+
 .overlay {
 	width:300px;
 	height:300px;
@@ -49,6 +62,7 @@ header {
 	top:0;
 	left:0;
 	display:none;
+	line-height: 1em;
 }
 
 .block a:hover > .overlay {
